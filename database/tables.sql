@@ -1,3 +1,5 @@
+create database contact;
+use contact;
 create table person (
     id          INT,
     first_name  varchar(20),
