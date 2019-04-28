@@ -6,6 +6,7 @@ create table person (
     id          INT not null AUTO_INCREMENT,
     firstname  varchar(20),
     lastname   varchar(20),
+    init_date  datetime,
     primary key (id)
 );
 
