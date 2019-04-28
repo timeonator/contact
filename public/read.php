@@ -40,6 +40,7 @@ if (isset($_POST['submit'])) {
   <th>Id</th>
   <th>First Name</th>
   <th>Last Name</th>
+  <th>Initial Date</th>
 </tr>
       </thead>
       <tbody>
@@ -48,6 +49,8 @@ if (isset($_POST['submit'])) {
 <td><?php echo escape($row["id"]); ?></td>
 <td><?php echo escape($row["firstname"]); ?></td>
 <td><?php echo escape($row["lastname"]); ?></td>
+<td><?php echo escape($row["init_date"]); ?></td>
+<td><a href="update_single.php?id=<?php echo escape($row["id"]); ?>">Edit</a></td>
 
       </tr>
     <?php } ?>

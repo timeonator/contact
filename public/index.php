@@ -7,6 +7,11 @@
   <li>
     <a href="read.php"><strong>Read</strong></a> - find a user
   </li>
+  <li>
+    <a href="../database/install.php"><strong>Install</strong></a> - install database
+  </li>
+  <li><a href="update.php"><strong>Update</strong></a> - edit a user</li>
+
 </ul>
 
 <?php include "templates/footer.php"; ?>

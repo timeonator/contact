@@ -17,6 +17,7 @@ if (isset($_POST['submit'])) {
     $new_user = array(
       "firstname" => $_POST['firstname'],
       "lastname"  => $_POST['lastname'],
+      "init_date" => date_create('now')->format('Y-m-d H:i:s')
     
     );
 
